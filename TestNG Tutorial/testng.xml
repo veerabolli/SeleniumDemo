@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+  
+  <test name="Peronal Loan">
+    <classes>
+      <class name="TestNGDemo.Day1"/>
+      <class name="TestNGDemo.Day2"/>
+        <class name="TestNGDemo.Day4"/>
+    </classes>
+  </test> 
+  
+  <test name="Car Loan">
+   <classes>
+  	<class name="TestNGDemo.Day3"/>
+  </classes>
+   </test>
+   
+</suite>
